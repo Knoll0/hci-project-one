@@ -15,20 +15,20 @@
       <ol id="ship-form-list">
         <li>
           <label for="fullName">Full Name:</label>
-          <input type="text" name="fullName" autocomplete="additional-name"/>
+          <input type="text" name="fullName" id="fullName"/>
         </li>
         <li>
           <label for="phone-number">Phone Number:</label>
-          <input type="tel" name="phone-number"/>
+          <input type="tel" name="phone-number" id="phone-number"/>
         </li>
         <li>
           <label for="primary-address">Primary Address:</label>
-          <input type="address" name="primary-address"/>
+          <input type="text" name="primary-address" id="primary-address"/>
         </li>
         <li>
           <label for="city">City:</label>
-          <select>
-          	<option value="AL">Alabama</option>
+          <select id="city">
+            <option value="AL">Alabama</option>
           	<option value="AK">Alaska</option>
           	<option value="AZ">Arizona</option>
           	<option value="AR">Arkansas</option>
@@ -83,7 +83,7 @@
         </li>
         <li>
           <label for="zip-code">Zip Code:</label>
-          <input type="text" name="zip-code"/>
+          <input type="text" name="zip-code" id="zip-code"/>
         </li>
       </ol>
     </form>
