@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Payment</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="../assets/css/screen.css" />
+</head>
+<body>
+  <header id="header">
+    <h1>Payment</h1>
+  </header>
+  <main id="content">
+    <form class="payment" action="index.html" method="post">
+      <ol id="payment-form-list">
+        <li>
+          <label for="card-number">Card Number: </label>
+          <input type="text" name="card-number" placeholder="Card Number"/>
+        </li>
+        <li>
+          <label for="card-name">Name On Card: </label>
+          <input type="text" name="card-name" placeholder="1234-5678-8765-4321"/>
+        </li>
+        <li>
+          <!-- Make the slash auto insert in js -->
+          <label for="exp-date">Expiration Date: </label>
+          <input type="text" name="exp-date" placeholder="MM / YY"/>
+        </li>
+        <li>
+          <label for="cvv">CVV: </label>
+          <input type="text" name="cvv" placeholder="CVV" />
+        </li>
+      </ol>
+
+    </form>
+  </main>
+  <footer id="footer">
+
+  </footer>
+</body>
+</html>
