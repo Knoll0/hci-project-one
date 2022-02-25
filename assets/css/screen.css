@@ -15,6 +15,11 @@ html{
   padding: 18px;
 }
 
+h1{
+  font-size: 27px;
+  line-height: 36px;
+}
+
 #ship-form-list{
   padding-left: 12px;
   padding-top: 9px;
@@ -33,4 +38,10 @@ html{
 #payment-form-list li{
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+#cart-start li{
+  list-style: circle;
+}
+
 }
