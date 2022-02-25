@@ -11,7 +11,7 @@
     <h1>Payment</h1>
   </header>
   <main id="content">
-    <form class="payment" action="index.html" method="post">
+    <form class="payment" action="../shipping/" method="get">
       <ol id="payment-form-list">
         <li>
           <label for="card-number">Card Number: </label>
@@ -30,7 +30,14 @@
           <label for="cvv">CVV: </label>
           <input type="text" name="cvv" placeholder="CVV" />
         </li>
+        <li>
+          <input type="checkbox" name="billing-address" id="billing-address"/>
+          <label for="billing-address">Same as shipping address</label>
+
+        </li>
       </ol>
+
+      <button type="submit" name="button">Continue</button>
 
     </form>
   </main>
