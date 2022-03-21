@@ -44,4 +44,19 @@ h1{
   list-style: circle;
 }
 
+#cart-submit {
+  background: #DDD;
+  text-decoration: none;
+  color: #111;
+  display: block;
+  margin: 9px;
+  line-height: 0;
+  padding: 15px;
+}
+
+
+#cart-submit:hover,
+#cart-submit:active,
+#cart-submit:focus {
+  background-color: #CCC;
 }
