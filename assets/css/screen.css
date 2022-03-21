@@ -20,6 +20,7 @@ h1{
   line-height: 36px;
 }
 
+
 #ship-form-list{
   padding-left: 12px;
   padding-top: 9px;
@@ -38,6 +39,10 @@ h1{
 #payment-form-list li{
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+#payment-address-list{
+  padding-left: 12px;
 }
 
 #cart-start li{
@@ -60,3 +65,15 @@ h1{
 #cart-submit:focus {
   background-color: #CCC;
 }
+
+@media screen and (min-width: 900px){
+  #content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #cart-start{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
