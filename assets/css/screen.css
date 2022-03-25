@@ -50,6 +50,9 @@ fieldset[aria-hidden="true"] {
   padding-left: 12px;
 }
 
+#cart-start {
+  padding-left: 24px;
+}
 #cart-start li{
   list-style: circle;
 }
@@ -63,7 +66,6 @@ fieldset[aria-hidden="true"] {
   line-height: 0;
   padding: 15px;
 }
-
 
 #cart-submit:hover,
 #cart-submit:active,
@@ -80,5 +82,7 @@ fieldset[aria-hidden="true"] {
     padding-top: 12px;
     padding-bottom: 12px;
   }
+  #main-header {
+    padding-left: 36px;
+  }
 }
-
