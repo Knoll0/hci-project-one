@@ -77,7 +77,20 @@ fieldset[aria-hidden="true"] {
   padding: 1.2em; /* 18 / 15 = 1.2 */
   width: 98%;
   text-align: left;
+}
 
+#pay-submit {
+  background: #DDD;
+  border: none;
+  display: block;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 0;
+  margin: 0.5em; /* 9 / 18 = .5 */
+  margin-top: 0.666666667em; /* 12 / 18 = 0.666666667 */
+  padding: 1.2em; /* 18 / 15 = 1.2 */
+  width: 98%;
+  text-align: left;
 }
 
 #city {
@@ -121,7 +134,9 @@ fieldset[aria-hidden="true"] {
     padding-left: 2em; /* 36 / 18 = 2 */
   }
 }
-
+#pay-submit:hover,
+#pay-submit:active,
+#pay-submit:focus,
 #cart-submit:hover,
 #cart-submit:active,
 #cart-submit:focus,
