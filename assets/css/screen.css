@@ -109,6 +109,13 @@ fieldset[aria-hidden="true"] {
   padding-top: 6px;
 }
 
+#different {
+  padding-left: 9px;
+}
+#different li {
+  padding-top: 3px;
+}
+
 
 @media screen and (min-width: 900px){
   #cart-start li{
