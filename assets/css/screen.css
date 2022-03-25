@@ -20,6 +20,11 @@ h1{
   line-height: 36px;
 }
 
+fieldset[aria-hidden="true"] {
+  display: none;
+}
+
+
 
 #ship-form-list{
   padding-left: 12px;
