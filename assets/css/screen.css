@@ -111,13 +111,11 @@ fieldset[aria-hidden="true"] {
 
 
 @media screen and (min-width: 900px){
-  #content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  #cart-start li{
+    text-align: center;
   }
-  #cart-start{
-    padding-top: 12px;
-    padding-bottom: 12px;
+  #cart-submit {
+    text-align: center;
   }
   #main-header {
     padding-left: 36px;
