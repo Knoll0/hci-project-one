@@ -69,7 +69,13 @@ fieldset[aria-hidden="true"] {
 
 #cart-submit:hover,
 #cart-submit:active,
-#cart-submit:focus {
+#cart-submit:focus,
+#address-submit:hover,
+#address-submit:active,
+#address-submit:focus,
+#city:hover,
+#city:active,
+#city:focus {
   background-color: #CCC;
 }
 
