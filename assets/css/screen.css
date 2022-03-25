@@ -127,4 +127,11 @@ fieldset[aria-hidden="true"] {
   #main-header {
     padding-left: 36px;
   }
+
+  #ship-form-list {
+    padding-left: 96px;
+  }
+  #ship-header {
+    padding-left: 36px;
+  }
 }
