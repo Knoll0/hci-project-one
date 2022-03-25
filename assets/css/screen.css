@@ -79,6 +79,37 @@ fieldset[aria-hidden="true"] {
   background-color: #CCC;
 }
 
+
+#address-submit {
+  background: #DDD;
+  border: none;
+  display: block;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 0;
+  margin: 9px;
+  margin-top: 12px;
+  padding: 15px;
+  width: 98%;
+  text-align: left;
+
+}
+
+#city {
+  border: none;
+  background: #DDD;
+  font-family: inherit;
+}
+
+#cart-summary {
+  padding-top: 12px;
+}
+#cart-end {
+  padding-left: 9px;
+  padding-top: 6px;
+}
+
+
 @media screen and (min-width: 900px){
   #content{
     display: grid;
